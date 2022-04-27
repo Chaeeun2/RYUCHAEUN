@@ -109,4 +109,26 @@ a:hover {
     padding-top: 0.7vw;
     margin-top: 0px;
     letter-spacing: 0em;
+    line-height: 1.6;
+}
+
+.info {
+    display: flex;
+    margin-top: 8vw;
+}
+
+.infoleft {
+    position: fixed;
+    width: 47.4vw;
+    margin-right: 1.5vw;
+    font-size: 35px;
+}
+
+.infoleft .content {
+    font-size: 40px;
+}
+
+.inforight {
+    margin-left: 48.9vw;
+    width: 47.4vw;
 }
