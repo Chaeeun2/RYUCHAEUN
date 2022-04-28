@@ -197,7 +197,7 @@ a:hover {
         position: fixed;
         display: block;
         border-bottom: 4px solid black;
-        font-size: 2em;
+        font-size: 6vw;
         font-weight: 600;
         width: 100vw;
         padding-top: 0.25em;
@@ -233,7 +233,7 @@ a:hover {
     .work {
         padding-left: 0.75em;
         padding-right: 0.75em;
-        margin-top: 9em;
+        margin-top: 8.5em;
         margin-bottom: 2em;
         justify-content: space-between;
         display: flex;
@@ -241,15 +241,12 @@ a:hover {
     }
 
     .thumbnail {
-        width: 45vw;
-        margin-top: 0.5em;
+        width: 45.5vw;
+        margin-top: 0;
     }
 
     .thumbnailtitle {
-        font-size: 1em;
-        font-weight: 600;
-        margin-top: 0.5em;
-        text-align: center;
+        display: none;
     }
 
     .portfolio {
@@ -279,7 +276,7 @@ a:hover {
 
     .title {
         display: block;
-        font-size: 1.2em;
+        font-size: 1.1em;
         word-break: normal;
         font-weight: 600;
         padding-top: 1em;
@@ -290,7 +287,7 @@ a:hover {
     }
 
     .explain {
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-weight: 600;
         padding-bottom: 2em;
         padding-top: 0.5em;
@@ -300,7 +297,7 @@ a:hover {
 
     .content {
         display: block;
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-weight: 600;
         padding-bottom: 4em;
         padding-top: 0.5em;
@@ -349,7 +346,7 @@ a:hover {
     }
 
     .infoleft .content {
-        font-size: 1.37em;
+        font-size: 6vw;
         margin-top: 0;
         width: 90vw;
         margin-bottom: 0;
@@ -358,7 +355,7 @@ a:hover {
 
     .inforight {
         width: 90vw;
-        font-size: 1.1em;
+        font-size: 1.05em;
         margin-bottom: 5em;
         margin-left: 5vw;
         padding-top: 0.5em;
@@ -366,17 +363,17 @@ a:hover {
 
     .year {
         display: block;
-        font-size: 1.1em;
+        font-size: 1.05em;
         font-weight: 600;
         width: 90vw;
-        margin-bottom: 0.3em;
+        margin-bottom: 0.2em;
         margin-top: 0.8em;
     }
 
     .history {
         width: 90vw;
         display: block;
-        font-size: 1.1em;
+        font-size: 1.05em;
         font-weight: 600;
         padding-top: 0;
         margin-top: 0px;
@@ -389,7 +386,7 @@ a:hover {
         color: #cecece;
         width: 90vw;
         display: inline-block;
-        font-size: 1.1em;
+        font-size: 1.05em;
         font-weight: 600;
         padding-top: 0;
         margin-top: 0px;
