@@ -199,8 +199,8 @@ a:hover {
         position: fixed;
         display: block;
         border-bottom: 0.12em solid black;
-        font-size: 7vw;
-        font-weight: 600;
+        font-size: 7.3vw;
+        font-weight: 700;
         width: 100vw;
         padding-top: 0.25em;
         letter-spacing: -0.02em;
@@ -233,19 +233,18 @@ a:hover {
     }
 
     .work {
-        padding-left: 2vw;
-        padding-right: 2vw;
-        margin-top: 32vw;
-        margin-bottom: 8vw;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 33vw;
+        margin-bottom: 0;
         justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
     }
 
     .thumbnail {
-        width: 46vw;
-        margin-top: 0;
-        margin-bottom: 0.1vw;
+        width: 100%;
+        margin-bottom: 0.2em;
     }
 
     .thumbnailtitle {
@@ -254,7 +253,7 @@ a:hover {
 
     .portfolio {
         display: block;
-        margin-top: 32vw;
+        margin-top: 33vw;
     }
 
     .img {
@@ -312,7 +311,7 @@ a:hover {
     .mo_btn {
         display: block;
         font-size: 1.7em;
-        font-weight: 600;
+        font-weight: 700;
         padding-left: 3.5vw;
         padding-top: 0.3em;
         padding-bottom: 0.3em;
@@ -336,7 +335,7 @@ a:hover {
 
     .info {
         display: block;
-        margin-top: 32vw;
+        margin-top: 33vw;
     }
 
     .infoleft {
@@ -354,6 +353,7 @@ a:hover {
         width: 90vw;
         margin-bottom: 0;
         padding-bottom: 0em;
+        letter-spacing: -0.01em;
     }
 
     .inforight {
