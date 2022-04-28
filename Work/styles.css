@@ -41,7 +41,7 @@ a:hover {
 }
 
 .work {
-    margin-top: 7.5vw;
+    margin-top: 7.5em;
     margin-bottom: 1vw;
     justify-content: space-between;
     display: flex;
@@ -49,20 +49,20 @@ a:hover {
 }
 
 .thumbnail {
-    width: 23.5vw;
-    margin-top: 0.5vw;
+    width: 23.6vw;
+    margin-top: 0.2vw;
 }
 
 .thumbnailtitle {
     font-size: 20px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 8px;
     text-align: center;
 }
 
 .portfolio {
     display: flex;
-    margin-top: 8vw;
+    margin-top: 8em;
 }
 
 .img {
@@ -111,7 +111,8 @@ a:hover {
 
 .info {
     display: flex;
-    margin-top: 8vw;
+    margin-top: 8em;
+    word-break: break-all;
 }
 
 .infoleft {
@@ -128,6 +129,7 @@ a:hover {
 }
 
 .inforight {
+    margin-top: 1em;
     margin-left: 48.9vw;
     width: 47.4vw;
     margin-bottom: 2vw;
@@ -137,7 +139,7 @@ a:hover {
     display: inline-block;
     font-size: 25px;
     font-weight: 600;
-    width: 6vw;
+    width: 100px;
 }
 
 .history {
@@ -196,8 +198,8 @@ a:hover {
     header {
         position: fixed;
         display: block;
-        border-bottom: 4px solid black;
-        font-size: 6vw;
+        border-bottom: 0.12em solid black;
+        font-size: 7vw;
         font-weight: 600;
         width: 100vw;
         padding-top: 0.25em;
@@ -209,17 +211,17 @@ a:hover {
         display: block;
         text-align: center;
         padding-bottom: 0.2em;
-        border-bottom: 4px solid black;
+        border-bottom: 0.12em solid black;
         background: white;
     }
 
     .navdiv {
         display: flex;
         justify-content: space-between;
-        width: 80vw;
+        width: 90vw;
         padding: 0;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
         margin-bottom: 0;
         padding-top: 0.3em;
         padding-bottom: 0.1em;
@@ -231,18 +233,19 @@ a:hover {
     }
 
     .work {
-        padding-left: 0.75em;
-        padding-right: 0.75em;
-        margin-top: 8.5em;
-        margin-bottom: 2em;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-top: 32vw;
+        margin-bottom: 8vw;
         justify-content: space-between;
         display: flex;
         flex-wrap: wrap;
     }
 
     .thumbnail {
-        width: 45.5vw;
+        width: 46vw;
         margin-top: 0;
+        margin-bottom: 0.1vw;
     }
 
     .thumbnailtitle {
@@ -251,7 +254,7 @@ a:hover {
 
     .portfolio {
         display: block;
-        margin-top: 9em;
+        margin-top: 32vw;
     }
 
     .img {
@@ -281,7 +284,7 @@ a:hover {
         font-weight: 600;
         padding-top: 1em;
         padding-bottom: 2em;
-        border-bottom: 2.5px solid black;
+        border-bottom: 0.15em solid black;
         margin: 0vw 0vw 0vw 0vw;
         letter-spacing: 0em;
     }
@@ -291,7 +294,7 @@ a:hover {
         font-weight: 600;
         padding-bottom: 2em;
         padding-top: 0.5em;
-        border-bottom: 2.5px solid black;
+        border-bottom: 0.15em solid black;
         margin: 0vw 0vw 0vw 0vw;
     }
 
@@ -308,12 +311,12 @@ a:hover {
 
     .mo_btn {
         display: block;
-        font-size: 2em;
+        font-size: 1.7em;
         font-weight: 600;
         padding-left: 3.5vw;
         padding-top: 0.3em;
         padding-bottom: 0.3em;
-        border-top: 4px solid black;
+        border-top: 0.12em solid black;
     }
 
     .btn {
@@ -333,7 +336,7 @@ a:hover {
 
     .info {
         display: block;
-        margin-top: 9em;
+        margin-top: 32vw;
     }
 
     .infoleft {
@@ -396,7 +399,7 @@ a:hover {
     }
 
     .infoborder {
-        border-top: 3px solid black;
+        border-top: 0.15em solid black;
         padding-top: 1.3em;
     }
 
