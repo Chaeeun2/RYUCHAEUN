@@ -180,6 +180,10 @@ a:hover {
     font-size: 20px;
 }
 
+.mo_btn {
+    display: none;
+}
+
 
 @media screen and (max-width:810px) {
 
@@ -207,7 +211,6 @@ a:hover {
         padding-bottom: 0.2em;
         border-bottom: 4px solid black;
         background: white;
-        padding-right: 0.3em;
     }
 
     .navdiv {
@@ -215,7 +218,8 @@ a:hover {
         justify-content: space-between;
         width: 80vw;
         padding: 0;
-        margin-left: 7vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
         margin-bottom: 0;
         padding-top: 0.3em;
         padding-bottom: 0.1em;
@@ -256,16 +260,17 @@ a:hover {
     .img {
         display: block;
         width: 92.5vw;
-        padding-left: 2.5vw;
-        padding-right: 4vw;
+        padding-left: 3.25vw;
+        padding-right: 3.25vw;
         margin-bottom: 2vw;
     }
 
     .portfoliotxt {
+        position: static;
         display: block;
-        padding-left: 0.75em;
-        padding-right: 0.75em;
-        margin-left: 50.5vw;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     .portfolioimg {
@@ -274,33 +279,131 @@ a:hover {
 
     .title {
         display: block;
-        font-size: 25px;
+        font-size: 1.2em;
         word-break: normal;
         font-weight: 600;
-        padding-top: 0.7vw;
-        padding-bottom: 3.5vw;
-        border-bottom: 3px solid black;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        border-bottom: 2.5px solid black;
         margin: 0vw 0vw 0vw 0vw;
         letter-spacing: 0em;
     }
 
     .explain {
-        font-size: 25px;
+        font-size: 1.2em;
         font-weight: 600;
-        padding-bottom: 3.5vw;
-        padding-top: 0.5vw;
-        border-bottom: 3px solid black;
+        padding-bottom: 2em;
+        padding-top: 0.5em;
+        border-bottom: 2.5px solid black;
         margin: 0vw 0vw 0vw 0vw;
     }
 
     .content {
         display: block;
-        font-size: 25px;
+        font-size: 1.2em;
         font-weight: 600;
-        margin-right: 1.5vw;
-        padding-top: 0.7vw;
+        padding-bottom: 4em;
+        padding-top: 0.5em;
         margin-top: 0px;
         letter-spacing: 0em;
         line-height: 1.6;
+    }
+
+    .mo_btn {
+        display: block;
+        font-size: 2em;
+        font-weight: 600;
+        padding-left: 3.5vw;
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+        border-top: 4px solid black;
+    }
+
+    .btn {
+        background: black;
+        color: white;
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+    .btn:hover {
+        background: black;
+        color: white;
+        text-decoration: underline;
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+    .info {
+        display: block;
+        margin-top: 9em;
+    }
+
+    .infoleft {
+        position: static;
+        width: 90vw;
+        margin-right: 1.5vw;
+        font-size: 1.37em;
+        margin-left: 5vw;
+        margin-bottom: 0;
+    }
+
+    .infoleft .content {
+        font-size: 1.37em;
+        margin-top: 0;
+        width: 90vw;
+        margin-bottom: 0;
+        padding-bottom: 0em;
+    }
+
+    .inforight {
+        width: 90vw;
+        font-size: 1.1em;
+        margin-bottom: 5em;
+        margin-left: 5vw;
+        padding-top: 0.5em;
+    }
+
+    .year {
+        display: block;
+        font-size: 1.1em;
+        font-weight: 600;
+        width: 90vw;
+        margin-bottom: 0.3em;
+        margin-top: 0.8em;
+    }
+
+    .history {
+        width: 90vw;
+        display: block;
+        font-size: 1.1em;
+        font-weight: 600;
+        padding-top: 0;
+        margin-top: 0px;
+        letter-spacing: 0em;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+
+    .future {
+        color: #cecece;
+        width: 90vw;
+        display: inline-block;
+        font-size: 1.1em;
+        font-weight: 600;
+        padding-top: 0;
+        margin-top: 0px;
+        letter-spacing: 0em;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+
+    .infoborder {
+        border-top: 3px solid black;
+        padding-top: 1.3em;
+    }
+
+    .infoborder2 {
+        padding-top: 1.5em;
     }
 }
