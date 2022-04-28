@@ -202,7 +202,7 @@ a:hover {
         font-size: 7.3vw;
         font-weight: 700;
         width: 100vw;
-        padding-top: 0.25em;
+        padding-top: 0.4em;
         letter-spacing: -0.02em;
         top: 0;
     }
@@ -314,7 +314,7 @@ a:hover {
         font-weight: 700;
         padding-left: 3.5vw;
         padding-top: 0.3em;
-        padding-bottom: 0.3em;
+        padding-bottom: 0.6em;
         border-top: 0.12em solid black;
     }
 
