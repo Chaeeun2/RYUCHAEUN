@@ -126,9 +126,44 @@ a:hover {
 
 .infoleft .content {
     font-size: 40px;
+    margin-top: 0;
+    width: 47vw;
 }
 
 .inforight {
     margin-left: 48.9vw;
     width: 47.4vw;
+    margin-bottom: 2vw;
+}
+
+.year {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    width: 6vw;
+}
+
+.history {
+    width: 48vw;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 1vw;
+    margin-top: 0px;
+    letter-spacing: 0em;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.future {
+    color: #cecece;
+    width: 48vw;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 1vw;
+    margin-top: 0px;
+    letter-spacing: 0em;
+    line-height: 1;
+    margin-bottom: 0;
 }
